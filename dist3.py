@@ -25,6 +25,10 @@ y_dim = 4
 # Sequence length
 seq_len = 9
 
+n_shapes = 100
+m_holdout = 0
+train_set_size = 10000
+test_set_size = 10000
 # Method for calculating number of combinations
 def n_comb(n, r):
 	return int(math.factorial(n) / (math.factorial(r) * math.factorial(n-r)))
